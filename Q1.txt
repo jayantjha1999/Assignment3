@@ -1,0 +1,17 @@
+Q1)Answer-
+Some of the key features of HTML5 include:
+
+a)Semantic Elements:
+Introduction of semantic elements such as <header>, <footer>, <article>, <section>, <nav>, and <aside> to better structure and define the content.
+
+b)Audio and Video Support:
+Native support for embedding audio and video content with the <audio> and <video> elements, eliminating the need for third-party plugins like Flash.
+
+c)New Form Input Types and Attributes:
+Introduction of new input types like <input type="date">, <input type="email">, <input type="url">, and attributes like placeholder, required, and pattern for enhanced form controls.
+
+d)Local Storage:
+The localStorage and sessionStorage APIs allow web applications to store data locally on the user's device, providing a more efficient and persistent alternative to cookies.
+
+e)Web Storage:
+The localStorage and sessionStorage APIs enable web applications to store key-value pairs locally, providing a more efficient and persistent alternative to cookies.

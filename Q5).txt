@@ -1,0 +1,40 @@
+Q5)Answer-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Features</title>
+    </head>
+<body>
+
+    <header>
+        <h1>Exploring HTML5 Features</h1>
+    </header>
+
+    <section>
+        <h2>Semantic Elements</h2>
+        <p>HTML5 introduces semantic elements that provide meaning to the structure of a web page. These include elements like &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;, and &lt;footer&gt;, making it easier to create well-structured and accessible documents.</p>
+
+        <h2>Canvas for Graphics</h2>
+        <p>The &lt;canvas&gt; element allows for dynamic rendering of graphics directly within the browser. It is commonly used for creating charts, animations, and interactive visual content. Below is an example of a simple drawing:</p>
+       
+
+        <script>
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+            context.fillStyle = "#3498db";
+            context.fillRect(50, 25, 200, 100);
+        </script>
+
+        <h2>Video Element</h2>
+        <p>The &lt;video&gt; element provides native support for embedding videos in web pages. This eliminates the need for third-party plugins like Flash. Below is an example of an embedded video:</p>
+        <video controls>
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+</body>
+</html>
